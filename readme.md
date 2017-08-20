@@ -13,4 +13,4 @@ A sample project for Datatables to filter table result without reloading the pag
 - php artisan migrate --seed
 - php artisan serve
 
-Now you can visit check the sample proejct. Thanks!
+Now you can check the sample proejct. Thanks!

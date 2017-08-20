@@ -18,9 +18,9 @@
 
     </head>
     <body>
-        <div class="flex-center position-ref full-height" style="padding: 30px;">
+        <div style="padding: 30px;">
 
-            <div class="content well">
+            <div class="content well ">
 
                 <table class="table table-responsive table-bordered display " id="myTable">
                     <caption>Users Listing</caption>
@@ -33,8 +33,8 @@
                     <tbody>
                         @foreach($users as $user)
                             <tr>
-                                <td>{{ $user->name }}</td>
-                                <td>{{ $user->email }}</td>
+                                <td >{{ $user->name }}</td>
+                                <td >{{ $user->email }}</td>
                             </tr>
                         @endforeach
                     </tbody>
